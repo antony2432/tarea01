@@ -22,7 +22,7 @@
 }
 
 .header .header-navigation {
-  width: 40vw;
+  width: 30vw;
   height: 35px;
   justify-items: end;
 }
@@ -41,9 +41,9 @@
 }
 
 .nav-item:hover a:hover {
-  background: #292d3e;
+  background: var(--primaryColor);
   border-radius: 5px;
-  transition-duration: 1000ms;
+  transition-duration: 800ms;
 }
 
 .nav-item a:hover {
